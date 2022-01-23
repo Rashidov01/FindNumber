@@ -21,7 +21,7 @@ elCheck.addEventListener('click', () => {
 
   // when user do not enter a number 
   if (!guessNum) {
-    displayMessage('⛔️ No number');
+    displayMessage('⛔️ No need enter number');
   }
   // when user find right number
   else if (guessNum === secretNumber) {
