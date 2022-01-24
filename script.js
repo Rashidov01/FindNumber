@@ -8,13 +8,12 @@ const elHighScore = document.querySelector('.highscore')
 let elBody = document.querySelector('body')
 
 let secretNumber = Math.trunc(Math.random() * 20 + 1)
-let score = 20;
+let score = 5;
 let highScore = 0;
 
 const displayMessage = (message) => {
   elMessage.textContent = message
 }
-
 
 elCheck.addEventListener('click', () => { 
   let guessNum = Number(document.querySelector('.guess').value);
